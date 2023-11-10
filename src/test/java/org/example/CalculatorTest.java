@@ -1,6 +1,7 @@
-package sem1;
+package org.example;
 
 import org.junit.Test;
+import sem1.Calculator;
 
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
@@ -10,7 +11,7 @@ public class CalculatorTest {
     @Test
     public void testcalculatorDiscount1() {
         // Рассчет скидки
-        double result = Calculator.calculatorDiscount(600.0, 10);
+        double result = sem1.Calculator.calculatorDiscount(600.0, 10);
         assertThat(result).isEqualTo(540.0);
 
 
