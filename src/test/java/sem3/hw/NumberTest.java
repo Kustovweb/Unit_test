@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-public class evenOddNumberTest {
+public class NumberTest {
     Number num = new Number();
     @BeforeEach
     public void initEach() {
